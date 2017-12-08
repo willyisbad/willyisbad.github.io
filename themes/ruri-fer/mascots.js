@@ -1,1 +1,1 @@
-var mascotList = [ "ruri1.png", "ruri2.png", "ruri3.png" ];
+var mascotList = [ "ruri1.png", "akemi.png", "shinobu1.png", "nico.png", "kimino.png", "splat.png", "mordred.png" ];
