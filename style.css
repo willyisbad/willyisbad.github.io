@@ -1,12 +1,12 @@
 body { 
-		background-color:#eceff1;
+		background-color:#1d1d1d;
 		color:#ffffff;
 	}
 	
 	#Title {
 		font-family: 'Malgun Gothic';
 		text-align: center;
-		color: #333;
+		color: rgb(235, 235, 235);
 		margin-top: 75px;
 	}
 	
@@ -19,8 +19,8 @@ body {
 		outline: none;
 		padding-left: 15px;
 		text-align: left;
-		background-color: white;
-		color: #333;
+		background-color: rgb(51, 51, 51);
+		color: rgb(105, 105, 105);
 		font-size: 15px;
 		font-family: 'Malgun Gothic', sans-serif;
 		display: block;
@@ -79,11 +79,11 @@ body {
 
 	} 
 	
-	a:link { text-decoration:none; font-weight:normal; color:#333; }
-	a:visited { text-decoration:none; font-weight:normal; color:#333; }
-	a:hover { text-decoration:none; font-weight:normal; color:#333; }
-	a:active { text-decoration:none; font-weight:normal; color:#333; }
-	a:focus { text-decoration:none; font-weight:normal; color:#333; }
+	a:link { text-decoration:none; font-weight:normal; color:rgb(192, 192, 192); }
+	a:visited { text-decoration:none; font-weight:normal; color:rgb(192, 192, 192); }
+	a:hover { text-decoration:none; font-weight:normal; color:rgb(218, 218, 218); }
+	a:active { text-decoration:none; font-weight:normal; color:rgb(192, 192, 192); }
+	a:focus { text-decoration:none; font-weight:normal; color:rgb(192, 192, 192); }
 	
 	#footer a:link { text-decoration:none; font-weight:normal; color:#101010; }
 	#footer a:visited { text-decoration:none; font-weight:normal; color:#101010; }
