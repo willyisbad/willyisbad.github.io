@@ -5,11 +5,11 @@ body {
 	}
 	
 	#Title {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Open Sans Bold Italic', sans-serif;
 		text-align: center;
 		color: rgb(235, 235, 235);
 		margin-top: 75px;
-		font-size: 30px;
+		font-size: 40px;
 	}
 	
 	#searchbox{
