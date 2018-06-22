@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:600i');
 body { 
-		background-image:url("background.jpg");
+		/*background-image:url("background.jpg");*/
+		background-color: #111;
 		color:#ffffff;
 	}
 	
