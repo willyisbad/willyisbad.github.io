@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,600i');
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,600i');*/
+
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: local(OpenSans-SemiBold), url('fonts/OpenSans-SemiBold.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'Open Sans Semibold Italic';
+    src: local(OpenSans-SemiBoldItalic), url('fonts/OpenSans-SemiBoldItalic.ttf') format('opentype');
+}
 body { 
 		background-image:url("background.jpg");
 		/*background-color: #111;*/
@@ -6,8 +15,7 @@ body {
 	}
 	
 	#Title {
-		font-family: 'Open Sans', sans-serif;
-		font-style: italic;
+		font-family: 'Open Sans Semibold Italic', sans-serif;
 		text-align: center;
 		color: rgb(235, 235, 235);
 		margin-top: 275px;
@@ -26,8 +34,7 @@ body {
 		background-color: rgb(20, 20, 20);
 		color: rgb(105, 105, 105);
 		font-size: 15px;
-		font-family: 'Open Sans', sans-serif;
-		font-style: normal;
+		font-family: 'Open Sans Semibold', sans-serif;
 		display: block;
 		margin: auto;
 		margin-top: 50px;
@@ -58,8 +65,7 @@ body {
 	}
 	
 	#linkblock {
-		font-family: 'Open Sans', sans-serif;
-		font-style: normal;
+		font-family: 'Open Sans Semibold', sans-serif;
 		width:130px;
 		height:140px;
 		margin-left:15px;
