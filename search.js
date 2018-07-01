@@ -42,6 +42,11 @@ function search(query){
             query.replaceChars(" ", "+");
         break;
 
+        case "-i":
+            query = query.substr(3);
+            window.location =
+            "https://www.google.com/search?tbm=isch&q=-site%3Apinterest.com+" +
+            query.replaceChars(" ", "+");
 
         default:
             window.location="https://www.google.com/#q=" +
