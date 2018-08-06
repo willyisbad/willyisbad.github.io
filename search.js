@@ -52,7 +52,7 @@ function search(query){
         case "-h":
             query = query.substr(3);
             window.location =
-            "https://nhentai.net/g/"
+            "https://nhentai.net/g/" +
             query.replaceChars(" ", "+");
 
         default:
