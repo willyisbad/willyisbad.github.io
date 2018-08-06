@@ -54,6 +54,7 @@ function search(query){
             window.location =
             "https://nhentai.net/g/" +
             query.replaceChars(" ", "+");
+        break;
 
         default:
             window.location="https://www.google.com/#q=" +
