@@ -14,13 +14,6 @@ String.prototype.replaceChars = function(character, replacement){
  
 function search(query){
     switch(query.substr(0, 2)){
-        case "-y":
-            query = query.substr(3);
-            window.location =
-            "https://www.youtube.com/results?search_query=" +
-            query.replaceChars(" ", "+");
-            break;
-
 	    case "-w":
 	        query = query.substr(3);
 	        window.location = 
@@ -39,13 +32,6 @@ function search(query){
             query = query.substr(3);
             window.location =
             "https://nyaa.si/?f=0&c=0_0&s=seeders&o=desc&q=" +
-            query.replaceChars(" ", "+");
-        break;
-
-        case "-i":
-            query = query.substr(3);
-            window.location =
-            "https://www.google.com/search?tbm=isch&q=-site%3Apinterest.com+" +
             query.replaceChars(" ", "+");
         break;
 
