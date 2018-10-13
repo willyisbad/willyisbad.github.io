@@ -35,13 +35,6 @@ function search(query){
             query.replaceChars(" ", "+");
         break;
 
-        case "-h":
-            query = query.substr(3);
-            window.location =
-            "https://nhentai.net/g/" +
-            query.replaceChars(" ", "+");
-        break;
-
         default:
             window.location="https://www.google.com/#q=" +
                 query.replaceChars(" ", "+");
