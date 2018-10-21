@@ -17,7 +17,7 @@ body {
 	#Title {
 		font-family: 'Open Sans Semibold Italic', sans-serif;
 		text-align: center;
-		color: rgb(235, 235, 235);
+		color: rgb(24, 24, 24);
 		margin-top: 275px;
 		font-size: 50px;
 	}
@@ -31,8 +31,8 @@ body {
 		outline: none;
 		padding-left: 15px;
 		text-align: center;
-		background-color: rgb(20, 20, 20);
-		color: rgb(105, 105, 105);
+		background-color: rgba(230, 230, 230, 0.226);
+		color: rgb(44, 44, 44);
 		font-size: 15px;
 		font-family: 'Open Sans Semibold', sans-serif;
 		display: block;
@@ -93,11 +93,11 @@ body {
 
 	} 
 	
-	a:link { text-decoration:none; font-weight:normal; color:rgb(192, 192, 192); }
-	a:visited { text-decoration:none; font-weight:normal; color:rgb(192, 192, 192); }
-	a:hover { text-decoration:none; font-weight:normal; color:rgb(218, 218, 218); }
-	a:active { text-decoration:none; font-weight:normal; color:rgb(192, 192, 192); }
-	a:focus { text-decoration:none; font-weight:normal; color:rgb(192, 192, 192); }
+	a:link { text-decoration:none; font-weight:normal; color:rgb(36, 36, 36); }
+	a:visited { text-decoration:none; font-weight:normal; color:rgb(36, 36, 36); }
+	a:hover { text-decoration:none; font-weight:normal; color:rgb(46, 46, 46); }
+	a:active { text-decoration:none; font-weight:normal; color:rgb(36, 36, 36); }
+	a:focus { text-decoration:none; font-weight:normal; color:rgb(36, 36, 36); }
 	
 	#footer a:link { text-decoration:none; font-weight:normal; color:#101010; }
 	#footer a:visited { text-decoration:none; font-weight:normal; color:#101010; }
