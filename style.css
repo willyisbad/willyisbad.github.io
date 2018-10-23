@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: 'Pixelade';
-    src: local(PIXELADE), url('fonts/PIXELADE.ttf') format('opentype');
+    src: local(PIXELADE), url('fonts/PIXELADE.TTF') format('opentype');
 }
 	body { 
 		background-color: rgb(235, 235, 235);
