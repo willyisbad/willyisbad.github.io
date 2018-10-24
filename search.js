@@ -14,12 +14,6 @@ String.prototype.replaceChars = function(character, replacement){
  
 function search(query){
     switch(query.substr(0, 2)){
-	    case "-w":
-	        query = query.substr(3);
-	        window.location = 
-		    "http://www.wolframalpha.com/input/?i=" + 
-		    query.replaceChars("+", "%2B");
-		    break;
             
         case "-m":
 		    query=query.substr(3);
