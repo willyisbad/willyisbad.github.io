@@ -30,7 +30,7 @@ function search(query){
         break;
 
         default:
-            window.location="https://www.google.com/#q=" +
+            window.location="https://duckduckgo.com/?q=" +
                 query.replaceChars(" ", "+");
     }
 }
