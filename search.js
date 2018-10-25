@@ -29,6 +29,14 @@ function search(query){
             query.replaceChars(" ", "+");
         break;
 
+        case "-g":
+            query = query.substr(3);
+            window.location =
+            "https://www.google.com/search?source=hp&q=" +
+            query.replaceChars(" ", "+");
+        break;
+
+
         default:
             window.location="https://duckduckgo.com/?q=" +
                 query.replaceChars(" ", "+");
