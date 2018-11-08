@@ -15,28 +15,6 @@ String.prototype.replaceChars = function(character, replacement){
 function search(query){
     switch(query.substr(0, 2)){
             
-        case "-m":
-		    query=query.substr(3);
-		    window.location = 
-			"https://forum.mobilism.org/search.php?keywords=" + 
-            query.replaceChars(" ", "+") + "&fid[]=398&sr=topics&sf=titleonly";
-            break;
-            
-        case "-n":
-            query = query.substr(3);
-            window.location =
-            "https://nyaa.si/?f=0&c=0_0&s=seeders&o=desc&q=" +
-            query.replaceChars(" ", "+");
-        break;
-
-        case "-g":
-            query = query.substr(3);
-            window.location =
-            "https://www.google.com/search?source=hp&q=" +
-            query.replaceChars(" ", "+");
-        break;
-
-
         default:
             window.location="https://duckduckgo.com/?q=" +
                 query.replaceChars(" ", "+");
