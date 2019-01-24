@@ -1,70 +1,71 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i');
 
 @font-face {
-    font-family: 'Kroftsmann';
-    src: local(Kroftsmann), url('fonts/Kroftsmann.ttf') format('opentype');
+    font-family: 'OpenSans-Semibold';
+    src: local(OpenSans-Semibold), url('fonts/OpenSans-Semibold.ttf') format('opentype');
 }
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: local(OpenSans-Bold), url('fonts/OpenSans-Bold.ttf') format('opentype');
+}
+
 	:root {
 		--main-text:rgb(240, 233, 233);
-		--alt-text:rgb(182, 174, 174);
+		--alt-text:rgb(0, 0, 0);
+		--muted-text: rgb(90, 88, 88);
+	}
+	body { 
+		background-image: url("background.png");
 	}
 	
-	body { 
-		background-image: url("background.jpg");
+	#frame{
+		width: 860px;
+		margin: 0 auto;
+		text-align: left;
+
+		margin-top: 17%;
 	}
+
 	
 	#Title {
-		font-family: 'Kroftsmann', sans-serif;
-		text-align: center;
+		font-family: 'OpenSans-Bold', sans-serif;
 		color: var(--main-text);
-		font-size: 90pt;
+		font-size: 1.5em;
+
+		margin-left: 10px;
+		margin-bottom: 10px;
+
 	}
 	
 	#searchbox{
 
-		width: 50%;
-		height: 6%;
+		width: 450px;
+		height: 35px;
 		border: none;
-		border-radius: 3px;
+		border-radius: 40px;
 		outline: none;
-		text-align: center;
-		background-color: rgb(102, 32, 37);
-		color: var(--main-text);
-		font-size: 14pt;
-		font-family: 'Open Sans Italic', sans-serif;
-		font-style: italic;
-		display: block;
-		margin: auto;
-		margin-top: 50px;
-		caret-color: transparent;
-	}
-	
-    #stripe {
-        width:100%;
-		vertical-align:middle;
-		margin-top: 18%;
-    }
+		padding-left: 20px;
 
-	#mainframe {
-		text-align: center;
-		position: absolute;
-		bottom: 0%;
-		padding-bottom: 15px;
-		left:12%;
-		right:12%;
+		text-align: left;
+		background-color: rgb(236, 236, 236);
+		color: var(--alt-text);
+		font-size: 1em;
+		font-family: 'OpenSans-Semibold', sans-serif;
+
+		caret-color: var(--alt-text);
+
+		margin-left: 5px;
+
 	}
 	
-	#footer {
-		position: absolute;
-		bottom : 0;
-		right: 0;
-		text-align: right;
-		padding: 10px;
-		font-size:30%;
+
+
+	#frame_blocks {
+		text-align: center;
 	}
 	
 	#linkblock {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'OpenSans-Semibold', sans-serif;
 		width:120px;
 		height: 230px;
 		/*background-color: crimson; /*DEBUG*/
@@ -77,19 +78,17 @@
 		padding-top:0px;
 		padding-bottom:0px;
 		color:var(--main-text);
-		text-align: center;
+		text-align: left;
 		background-position:top 0px center ; 
 		background-repeat:no-repeat;
-		font-size:12pt;
+		font-size:1em;
 		display: inline-block;
 		vertical-align: top;
 	}
 	#blocktitle {
-		border-color: var(--main-text);
-		border-style: solid;
-		border-width: 1px;
-		border-radius: 0px;
-		padding-top: 3px;
+		font-family: 'OpenSans-Bold', sans-serif;
+		color:var(--muted-text);
+		padding-top: 0px;
 		padding-bottom: 4px;
 		margin-bottom: 5px;
 	}
@@ -100,6 +99,16 @@
 	}
 	li {
 		margin-bottom: 0px;
+	}
+
+
+	#footer {
+		position: absolute;
+		bottom : 0;
+		right: 0;
+		text-align: right;
+		padding: 10px;
+		font-size:30%;
 	}
 
 	
