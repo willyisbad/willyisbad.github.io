@@ -11,8 +11,9 @@
 
 	:root {
 		--main-text:rgb(240, 233, 233);
+		--hover-text: rgb(161, 158, 158);
 		--alt-text:rgb(0, 0, 0);
-		--muted-text: rgb(90, 88, 88);
+		--muted-text: rgb(70, 68, 68);
 	}
 	body { 
 		background-image: url("background.png");
@@ -107,15 +108,16 @@
 
 		position: absolute;
 		left: 460px;
-		top: 340px;
+		top: 345px;
 
 		background-image: url('img/g5gb7Hc.png');
 		background-size: cover;
 
 		border-radius: 10px;
 		border-style: solid;
-		border-width: 3px;
-		border-color: black;
+		border-width: 7px;
+		box-sizing: border-box;
+		border-color: var(--muted-text)
 	}
 
 	#footer {
@@ -130,7 +132,7 @@
 	
 	a:link { text-decoration:none; font-weight:normal; color:var(--main-text); }
 	a:visited { text-decoration:none; font-weight:normal; color:var(--main-text); }
-	a:hover { text-decoration:none; font-weight:normal; color:var(--alt-text); }
+	a:hover { text-decoration:none; font-weight:normal; color:var(--hover-text); transition: 300ms;		font-family: 'OpenSans-Bold';}
 	a:active { text-decoration:none; font-weight:normal; color:var(--main-text); }
 	a:focus { text-decoration:none; font-weight:normal; color:var(--main-text); }
 	
