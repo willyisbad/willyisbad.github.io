@@ -20,10 +20,10 @@
 	
 	#frame{
 		width: 860px;
-		margin: 0 auto;
 		text-align: left;
 
-		margin-top: 17%;
+		margin-top: 350px;
+		margin-left: 740px;
 	}
 
 	
@@ -101,6 +101,22 @@
 		margin-bottom: 0px;
 	}
 
+	#image_frame {
+		width: 250px;
+		height: 305px;
+
+		position: absolute;
+		left: 460px;
+		top: 340px;
+
+		background-image: url('img/g5gb7Hc.png');
+		background-size: cover;
+
+		border-radius: 10px;
+		border-style: solid;
+		border-width: 3px;
+		border-color: black;
+	}
 
 	#footer {
 		position: absolute;
