@@ -47,6 +47,11 @@ body {
 	text-align: center;
 }
 
+#frame_alt {
+
+	display: none;
+}
+
 #linkblock {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
