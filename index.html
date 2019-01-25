@@ -2,7 +2,23 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-        <title>💀</title>
+	<title>💀</title>
+	
+	<script type="text/javascript">
+		function show( show1 ) {
+		  document.getElementById(show1).style.display="block";
+		}
+		function hide( hide1 ) {
+		  document.getElementById(hide1).style.display="none";
+		}
+		function togON( tog ) {
+		  document.getElementById(tog).style.backgroundColor="var(--gray1)";
+		}
+		function togOFF( tog ) {
+		  document.getElementById(tog).style.backgroundColor="var(--white1)";
+		}
+	</script>
+"
 </head>
 <body>
 
@@ -11,8 +27,13 @@
 <script>
 	var pictures = ['10knc.png', 'g5gb7Hc.png',];
 	var picture = pictures[Math.floor(Math.random() * pictures.length)];
-	document.write('<div id=image_frame style="background-image: url(img/' + picture + ')"></div>');
+	document.write('<div id=image_frame style="background-image: url(img/' + picture + ')">');
 </script>
+
+	<div id="B1" class=button onclick="show('frame'); togON('B1'); togOFF('B2');" style="left: 7.5; background-color: var(--gray1);"></div>
+	<div id="B2" class=button onclick="hide('frame'); togON('B2'); togOFF('B1');" style="left: 30"></div>
+
+</div>
 
 <div id=frame>
 

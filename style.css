@@ -10,10 +10,10 @@
 }
 
 	:root {
-		--main-text:rgb(240, 233, 233);
-		--hover-text: rgb(161, 158, 158);
-		--alt-text:rgb(0, 0, 0);
-		--muted-text: rgb(70, 68, 68);
+		--white1:rgb(240, 233, 233);
+		--gray1: rgb(161, 158, 158);
+		--gray2:rgb(0, 0, 0);
+		--gray3: rgb(70, 68, 68);
 	}
 	body { 
 		background-image: url("background.png");
@@ -30,7 +30,7 @@
 	
 	#Title {
 		font-family: 'OpenSans-Bold', sans-serif;
-		color: var(--main-text);
+		color: var(--white1);
 		font-size: 1.5em;
 
 		margin-left: 10px;
@@ -49,11 +49,11 @@
 
 		text-align: left;
 		background-color: rgb(236, 236, 236);
-		color: var(--alt-text);
+		color: var(--gray2);
 		font-size: 1em;
 		font-family: 'OpenSans-Semibold', sans-serif;
 
-		caret-color: var(--alt-text);
+		caret-color: var(--gray2);
 
 		margin-left: 5px;
 
@@ -69,7 +69,6 @@
 		font-family: 'OpenSans-Semibold', sans-serif;
 		width:120px;
 		height: 230px;
-		/*background-color: crimson; /*DEBUG*/
 		margin-left:10px;
 		margin-right:10px;
 		margin-top:00px;
@@ -78,7 +77,7 @@
 		padding-right:0px;
 		padding-top:0px;
 		padding-bottom:0px;
-		color:var(--main-text);
+		color:var(--white1);
 		text-align: left;
 		background-position:top 0px center ; 
 		background-repeat:no-repeat;
@@ -88,7 +87,7 @@
 	}
 	#blocktitle {
 		font-family: 'OpenSans-Bold', sans-serif;
-		color:var(--muted-text);
+		color:var(--gray3);
 		padding-top: 0px;
 		padding-bottom: 4px;
 		margin-bottom: 5px;
@@ -117,7 +116,21 @@
 		border-style: solid;
 		border-width: 7px;
 		box-sizing: border-box;
-		border-color: var(--muted-text)
+		border-color: var(--gray3)
+	}
+
+	.button {
+		width: 15px;
+		height: 15px;
+		background-color: var(--white1);
+
+		position: absolute;
+		bottom: 7.5;
+		border-radius: 3px;
+	}
+	.button:hover {
+		background-color: var(--gray3) !important;
+		cursor: pointer;
 	}
 
 	#footer {
@@ -130,9 +143,9 @@
 	}
 
 	
-	a:link { text-decoration:none; font-weight:normal; color:var(--main-text); }
-	a:visited { text-decoration:none; font-weight:normal; color:var(--main-text); }
-	a:hover { text-decoration:none; font-weight:normal; color:var(--hover-text); transition: 300ms;		font-family: 'OpenSans-Bold';}
-	a:active { text-decoration:none; font-weight:normal; color:var(--main-text); }
-	a:focus { text-decoration:none; font-weight:normal; color:var(--main-text); }
+	a:link { text-decoration:none; font-weight:normal; color:var(--white1); }
+	a:visited { text-decoration:none; font-weight:normal; color:var(--white1); }
+	a:hover { text-decoration:none; font-weight:normal; color:var(--gray1); transition: 300ms;		font-family: 'OpenSans-Bold';}
+	a:active { text-decoration:none; font-weight:normal; color:var(--white1); }
+	a:focus { text-decoration:none; font-weight:normal; color:var(--white1); }
 	
