@@ -93,7 +93,7 @@ li {
 	height: 305px;
 	position: absolute;
 	left: 460px;
-	top: 345px;
+	top: 325px;
 	background-size: cover;
 	border-radius: 10px;
 	border-style: solid;
@@ -127,7 +127,7 @@ li {
 	
 a:link { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:visited { text-decoration:none; font-weight:normal; color:var(--white1); }
-a:hover { text-decoration:none; font-weight:normal; color:var(--gray1); transition: 300ms; font-weight:700;;}
+a:hover { text-decoration:none; font-weight:normal; color:var(--gray1); transition: 300ms; }
 a:active { text-decoration:none; font-weight:normal; color:var(--white1); }
 a:focus { text-decoration:none; font-weight:normal; color:var(--white1); }
 	
